@@ -8,6 +8,12 @@
 body {
     background-color: #ffffff;
     color: #111;
+    font-family: Arial, sans-serif;
+}
+
+.message{
+    font-family: 'Dancing Script' , Cutsive;
+    font size : 22px;
 }
 
 /* Top Banner */
