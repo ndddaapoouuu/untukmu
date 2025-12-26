@@ -120,3 +120,85 @@ body {
     line-height: 1.5;
 }
       
+{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.info-box {
+    background: #eef3ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.search {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.message-list .card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    margin: 0 0 5px;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+    }
